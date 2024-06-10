@@ -5,9 +5,9 @@ import { useMutation, useQueryClient } from 'react-query';
 import { createProduct } from '@/api/serviceapi';
 import { useDropzone } from 'react-dropzone';
 
-export default function CreateProduct({ initialPrice = 0 }) {
+export default function CreateProduct() {
   const [title, setTitle] = useState('');
-  const [price, setPrice] = useState<number>(initialPrice);
+  const [price, setPrice] = useState<number>(0);
   const [description, setDescription] = useState('');
   const [category, setCategory] = useState('');
   const [files, setFiles] = useState<File[]>([]);
