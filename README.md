@@ -4,6 +4,7 @@ Sellify is a platform for selling your products online. This project is bootstra
 
 # The project is live.
 
+https://sellify-phi.vercel.app/
 
 ## Getting Started
 
